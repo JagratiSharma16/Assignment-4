@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form assignment-2</title>
+    <link rel="stylesheet" href="style assign2.css">
+</head>
+
+<body>
+    <div class="form">
+        <form>
+            <h1><u>Survey Form:</u></h1>
+            <fieldset class="name">
+                <legend ><b>Name:</b></legend>
+                <div >
+                    <label for="fn">First Name:</label>
+                    <input type="text" name="first_name" id="fn" class="fn" required>
+                </div>
+                <br>
+
+                <div >
+                    <label for="fn">Last Name:</label>
+                    <input type="text" name="last_name" id="ln" class="fn" required>
+                </div>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend><b>Address</b>:</legend>
+                <div>
+                    <label for="street">Street:</label>
+                    <input type="text" name="street_address" id="street" class="add" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city" class="add" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="pin">Pincode:</label>
+                    <input type="text" name="pincode" id="pin" class="add" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="state">State:</label>
+                    <input type="text" name="state" id="state" class="add" required>
+                </div>
+            </fieldset>
+            <br>
+            <div>
+                <label for="cn"><b>Contact Number:</b></label>
+                <input type="number" name="contact_number" id="cn"required>
+            </div>
+            <br>
+            <fieldset>
+                <legend><b>Rating:</b></legend>
+                <div>
+                    <label>Quality of products recieved:</label>
+                    <label for="excellent">Excellent</label>
+                    <input type="radio" name="quality_of_products_received_rating" id="excellent">
+                    <label for="good">Good</label>
+                    <input type="radio" name="quality_of_products_received_rating" id="good">
+                    <label for="bad">Bad</label>
+                    <input type="radio" name="quality_of_products_received_rating" id="bad">
+                </div>
+                <br>
+
+                <div>
+                    <label>Delivery:</label>
+                    <label for="excellent">Excellent</label>
+                    <input type="radio" name="delivery_rating" id="excellent" >
+                    <label for="good">Good</label>
+                    <input type="radio" name="delivery_rating" id="good">
+                    <label for="bad">Bad</label>
+                    <input type="radio" name="delivery_rating" id="bad">
+                </div>
+                <br>
+
+                <div>
+                    <label>Value for money:</label>
+                    <label for="excellent">Excellent</label>
+                    <input type="radio" name="value_for_money_rating" id="excellent">
+                    <label for="good">Good</label>
+                    <input type="radio" name="value_for_money_rating" id="good">
+                    <label for="bad">Bad</label>
+                    <input type="radio" name="value_for_money_rating" id="bad">
+                </div>
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>
